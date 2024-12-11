@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Registration successful!');
             registerForm.reset();
             localStorage.setItem('loggedInUser', JSON.stringify(user));
-            window.location.href = '../Pages/index.html';
+            window.location.href = 'register_login.html';
         });
     }
 
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
         if (!loggedInUser) {
             alert('You must be logged in to view the cart.');
-            window.location.href = 'login.html';
+            window.location.href = 'register_login.html';
         } else {
             displayCartItems();
         }
@@ -103,7 +103,7 @@ function addToCart(productId, quantity) {
     //Only logged in users can add to cart
     if (!loggedInUser) {
         alert('You must be logged in to add items to the cart.');
-        window.location.href = 'login.html';
+        window.location.href = 'register_login.html';
         return;
     }
 
