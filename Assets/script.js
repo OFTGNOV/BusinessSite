@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (user && user.password === password) {
                 alert(`Welcome back, ${user.firstName} ${user.lastName}!`);
                 localStorage.setItem('loggedInUser', JSON.stringify(user));
-                window.location.href = '../Pages/index.html';
+                window.location.href = '../index.html';
             } else {
                 alert('Invalid email or password.');
             }

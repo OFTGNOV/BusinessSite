@@ -169,7 +169,7 @@ main {
     color: #FFFFFF;
     overflow: hidden;
     min-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Assets/images/indeximage1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Assets/images/indeximage1.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -828,7 +828,7 @@ footer button:hover {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../Assets/images/indeximage3.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('Assets/images/indeximage3.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
