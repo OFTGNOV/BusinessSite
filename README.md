@@ -1,2 +1,3 @@
 # businesssite.github.io
-My first Website
+Bussiness website Created for Webprogramming Indiviual Assignment 2
+
