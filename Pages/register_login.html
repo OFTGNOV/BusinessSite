@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register/Login - WAIST MANAGEMENT</title>
+    <link rel="stylesheet" href="..\Assets\styles.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Register</h2>
+                <form id="register-form">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="login-email" required>
+
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer> 
+        <section>
+            <h2>Contact Us</h2>
+            <p>WAIST MANAGEMENT</p>
+            <p>123 Fitness Lane</p>
+            <p>Kingston, Jamaica</p>
+            <p>876-555-1234</p>
+        </section>
+        <section>
+            <h2>Hours of Operation</h2>
+            <p>Monday - Friday: 5:00am - 9:00pm</p>
+            <p>Saturday: 7:00am - 7:00pm</p>
+            <p>Sunday: 9:00am - 5:00pm</p> 
+        </section>
+        <section>
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+        </section>
+        <section>
+            <button onclick="location.href='index.html'">Back to Home</button>
+        </section>
+    </footer>
+    <script src="../Assets/script.js"></script>
+</body>
+</html>

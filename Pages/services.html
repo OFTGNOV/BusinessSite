@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services - WAIST MANAGEMENT</title>
+    <link rel="stylesheet" href="..\Assets\styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-title">
+                    <h1>SERVICES</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                    <li><a href="register_login.html">Register/Login</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+                <h2 id="welcome-user"></h2>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section id="Services">
+                <h2>Choose from a variety of services to suit your fitness needs:</h2>
+                <div class="services-grid">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/personaltrainer.png" alt="Personal Training">
+                        </div>
+                        <div class="card-title">Personal Training</div>
+                        <div class="card-subtitle">One-on-one training sessions with our certified trainers.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>50</span></div>
+                            <label for="quantity-1">Qty:</label>
+                            <input type="number" id="quantity-1" name="quantity-1" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(1, document.getElementById('quantity-1').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/groupclass.png" alt="Group Classes">
+                        </div>
+                        <div class="card-title">Group Classes</div>
+                        <div class="card-subtitle">Join our group classes for a fun and motivating workout experience.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>30</span></div>
+                            <label for="quantity-2">Qty:</label>
+                            <input type="number" id="quantity-2" name="quantity-2" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(2, document.getElementById('quantity-2').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/nutrition.png" alt="Nutrition Counseling">
+                        </div>
+                        <div class="card-title">Nutrition Counseling</div>
+                        <div class="card-subtitle">Get personalized nutrition advice to complement your fitness routine.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>40</span></div>
+                            <label for="quantity-3">Qty:</label>
+                            <input type="number" id="quantity-3" name="quantity-3" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(3, document.getElementById('quantity-3').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/Massage.png" alt="Massage therapy">
+                        </div>
+                        <div class="card-title">Massage therapy</div>
+                        <div class="card-subtitle">Muscle recovery and relaxation treatments.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>60</span></div>
+                            <label for="quantity-4">Qty:</label>
+                            <input type="number" id="quantity-4" name="quantity-4" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(4, document.getElementById('quantity-4').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/physiotherapy.png" alt="Physical Therapy">
+                        </div>
+                        <div class="card-title">Physical Therapy</div>
+                        <div class="card-subtitle">Rehabilitation and injury prevention services.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>70</span></div>
+                            <label for="quantity-5">Qty:</label>
+                            <input type="number" id="quantity-5" name="quantity-5" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(5, document.getElementById('quantity-5').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/specialized-training.png" alt="Specialized Training">
+                        </div>
+                        <div class="card-title">Specialized Training</div>
+                        <div class="card-subtitle">Customized training programs for athletes and individuals with specific fitness goals.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>80</span></div>
+                            <label for="quantity-6">Qty:</label>
+                            <input type="number" id="quantity-6" name="quantity-6" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(6, document.getElementById('quantity-6').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/swiming.png" alt="Swim Classes">
+                        </div>
+                        <div class="card-title">Swim Classes</div>
+                        <div class="card-subtitle">Learn to swim or improve your swimming technique with our experienced instructors.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>25</span></div>
+                            <label for="quantity-7">Qty:</label>
+                            <input type="number" id="quantity-7" name="quantity-7" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(7, document.getElementById('quantity-7').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/yogaclasses.png" alt="Yoga Classes">
+                        </div>
+                        <div class="card-title">Yoga Classes</div>
+                        <div class="card-subtitle">Relax and rejuvenate with our yoga classes for all levels.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>35</span></div>
+                            <label for="quantity-8">Qty:</label>
+                            <input type="number" id="quantity-8" name="quantity-8" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(8, document.getElementById('quantity-8').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../Assets/images/ultimate.png" alt="The Ultimate Package">
+                        </div>
+                        <div class="card-title">The Ultimate Package</div>
+                        <div class="card-subtitle">Get access to all our services and much more with our Ultimate Package.</div>
+                        <div class="card-divider"></div>
+                        <div class="card-footer">
+                            <div class="card-price">$<span>100</span></div>
+                            <label for="quantity-9">Qty:</label>
+                            <input type="number" id="quantity-9" name="quantity-9" min="1" value="1">
+                            <button class="card-btn" onclick="addToCart(9, document.getElementById('quantity-9').value)">
+                                <img src="../Assets/images/add-to-cart.png" alt="Add To Cart" style="width: 24px; height: 24px;">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <button onclick="location.href='Cart.html'">CheckOut</button>
+            </section>
+        </div>
+    </main>
+    <footer> 
+        <section>
+            <h2>Contact Us</h2>
+            <p>WAIST MANAGEMENT</p>
+            <p>123 Fitness Lane</p>
+            <p>Kingston, Jamaica</p>
+            <p>876-555-1234</p>
+        </section>
+        <section>
+            <h2>Hours of Operation</h2>
+            <p>Monday - Friday: 5:00am - 9:00pm</p>
+            <p>Saturday: 7:00am - 7:00pm</p>
+            <p>Sunday: 9:00am - 5:00pm</p> 
+        </section>
+        <section>
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+        </section>
+        <section>
+            <button onclick="location.href='index.html'">Back to Home</button>
+        </section>
+    </footer>    
+    <script src="../Assets/script.js"></script>
+</body>
+</html>
