@@ -12,14 +12,14 @@ HOME PAGE (index.html)
 |     "Your Fitness Journey Starts Here"   |
 |                                          |
 +------------------------------------------+
-|           Our Services                    |
-| +----------+ +----------+ +----------+    |
-| |Personal  | |Group     | |Nutrition |    |
-| |Training  | |Classes   | |Counsel   |    |
-| |[Learn]   | |[Learn]   | |[Learn]   |    |
-| +----------+ +----------+ +----------+    |
+|           Our Services                   |
+| +----------+ +----------+ +----------+   |
+| |Personal  | |Group     | |Nutrition |   |
+| |Training  | |Classes   | |Counsel   |   |
+| |[Learn]   | |[Learn]   | |[Learn]   |   |
+| +----------+ +----------+ +----------+   |
 +------------------------------------------+
-|              Footer                       |
+|              Footer                      |
 | Contact    Hours     Social    Home Btn  |
 +------------------------------------------+
 
@@ -79,11 +79,11 @@ CART PAGE (Cart.html)
 | | Item 2  | Quantity | Price | [X]   |   |
 | +------------------------------------+   |
 |                                          |
-|            Total: $XXX.XX               |
+|            Total: $XXX.XX                |
 |                                          |
-| [Cancel] [Exit] [Checkout]              |
+| [Cancel] [Exit] [Checkout]               |
 +------------------------------------------+
-|              Footer                       |
+|              Footer                      |
 +------------------------------------------+
 
 REGISTER/LOGIN PAGE (register_login.html)
@@ -93,14 +93,14 @@ REGISTER/LOGIN PAGE (register_login.html)
 +------------------------------------------+
 |    Register         |      Login         |
 | +-----------------+ | +-----------------+|
-| | First Name      | | | Email          ||
-| | Last Name       | | | Password       ||
-| | Email           | | |                ||
-| | Password        | | | [Login]        ||
-| | [Register]      | | |                ||
+| | First Name      | | | Email           ||
+| | Last Name       | | | Password        ||
+| | Email           | | |                 ||
+| | Password        | | | [Login]         ||
+| | [Register]      | | |                 ||
 | +-----------------+ | +-----------------+|
 +------------------------------------------+
-|              Footer                       |
+|              Footer                      |
 +------------------------------------------+
 
 INVOICE PAGE (invoice.html)
@@ -110,19 +110,19 @@ INVOICE PAGE (invoice.html)
 +------------------------------------------+
 |           Invoice Details                |
 | Invoice #: XXXXX                         |
-| Date: XX/XX/XXXX                        |
+| Date: XX/XX/XXXX                         |
 |------------------------------------------|
 | Item      | Qty | Price | Total          |
 |------------------------------------------|
-| Service 1 |  X  |  $XX  | $XXX          |
-| Service 2 |  X  |  $XX  | $XXX          |
+| Service 1 |  X  |  $XX  | $XXX           |
+| Service 2 |  X  |  $XX  | $XXX           |
 |------------------------------------------|
-| Subtotal:              $XXX             |
-| Tax:                   $XX              |
-| Discount:              $XX              |
-| Total:                 $XXX             |
+| Subtotal:              $XXX              |
+| Tax:                   $XX               |
+| Discount:              $XX               |
+| Total:                 $XXX              |
 |------------------------------------------|
-| [Print] [Download] [Back to Home]       |
+| [Print] [Download] [Back to Home]        |
 +------------------------------------------+
-|              Footer                       |
+|              Footer                      |
 +------------------------------------------+
